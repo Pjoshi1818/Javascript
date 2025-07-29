@@ -31,7 +31,22 @@
 
 let somenumber =45
 
+// let isstring = String(somenumber)
+//   console.log(typeof isstring)
+//   console.log(isstring)
 
-let isstring = String(somenumber)
-  console.log(typeof isstring)
-  console.log(isstring)
+
+
+//********* Operations  ********* 
+
+let value = 5
+let negvalue = -value
+// console.log(negvalue)
+
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**2)   // pow
+// console.log(2/2)
+// console.log(2%2)
