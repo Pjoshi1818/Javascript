@@ -5,11 +5,11 @@
 //   alert("pankaj")   // we are using node js ,  not browser
 
 
-// let age = 18
-// let islog = false
-// let state  = null 
-// let sp          
-// let str = "pankaj"
+let age = 18
+let islog = false
+let state  = null 
+let sp          
+let str = "pankaj"
 
 // console.table([age , islog ,state,str,sp])
 
@@ -35,15 +35,15 @@
 // -> string, number, boolean ,null , undefined , Bigint ,symbol;
 
 
-// const mystring = "pankaj";
-// const num = 123  // const num = 123.321
+const mystring = "pankaj";
+const num = 123  // const num = 123.321
  
-// const islogedin = false
-// const outsidetemp = null
-// let user ;
+const islogedin = false
+const outsidetemp = null
+let user ;
 
-// const id =  Symbol('123')
-// const sid = Symbol('123')
+const id =  Symbol('123')
+const sid = Symbol('123')
 
 // console.log(id === sid)
 
@@ -56,21 +56,21 @@
 
 //  //Array , object ,function 
 
-//  const hero = ["kk","jj","dd"];
-//  {  // object
-//   name :"pankaj"
-//   age : 20
-//  }
+ const hero = ["kk","jj","dd"];
+ {  // object
+  name :"pankaj"
+  age : 20
+ }
 
-//  let my_obj =  {   // object
-//   name : "pankaj"
+ let my_obj =  {   // object
+  name : "pankaj"
 
-//  }
+ }
 
-// let myFunction = function(){
-//   console.log("function");
+let myFunction = function(){
+  console.log("function");
 
-// }
+}
 
 
 // console.log(typeof myFunction)
