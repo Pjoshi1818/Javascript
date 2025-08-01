@@ -124,9 +124,12 @@ console.log(usertwo)
 
 
 // +++  constructer ++
-function Person(name, age) {
-  this.name = name;
-  this.age = age;
-}
-const person1 = new Person("Pankaj", 22);
-console.log(person1.name); 
+// Constructor function creates objects with properties  
+// 'this' refers to the new object being created
+
+// function Person(name, age) {
+//   this.name = name;
+//   this.age = age;
+// }
+// const person1 = new Person("Pankaj", 22);
+// console.log(person1.name); 
