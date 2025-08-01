@@ -123,3 +123,10 @@ console.log(userone)
 console.log(usertwo)
 
 
+// +++  constructer ++
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+}
+const person1 = new Person("Pankaj", 22);
+console.log(person1.name); 
