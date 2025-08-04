@@ -1,6 +1,6 @@
   // data type  
 
-  // "use strict" ;        // treat all JS code as  newrer version 
+  "use strict" ;        // treat all JS code as  newrer version 
 
 //   alert("pankaj")   // we are using node js ,  not browser
 
@@ -42,10 +42,10 @@ const islogedin = false
 const outsidetemp = null
 let user ;
 
+
 const id =  Symbol('123')
 const sid = Symbol('123')
-
-// console.log(id === sid)
+console.log(id === sid)
 
 //  const bigint = 741256894512368754n   // bigint 
 

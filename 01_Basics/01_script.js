@@ -1,11 +1,15 @@
 
 //1.  variable and constant    (27/7/25) 
+'use strict';
+
 
 const accountId = 5445                      // cannot be changed later
 let accountEmail = "pankaj@gmail.com"      // Value can be updated, block scoped
 var accountPassword = "8562"              // scope problem  
 accountCity = "chittor"                    
-let accountstate;                      //not initialized: default value is 'undefined' 
+let accountstate; 
+
+//not initialized: default value is 'undefined' 
 /*
 prefer not to use var
 becouse of issue in block scope and functinol scope 
