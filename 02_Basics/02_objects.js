@@ -1,4 +1,6 @@
 // Objects
+
+// object literals  
 // 'use strict'
 
 const mysym = Symbol("k1"); 
