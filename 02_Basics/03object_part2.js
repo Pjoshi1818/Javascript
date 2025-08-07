@@ -1,4 +1,6 @@
 // // const tenderuser = Object()
+const obj = { name: "Pankaj" }// This is not a singleton. It's just a regular object.
+
 
 const tinderuser = {}
 
