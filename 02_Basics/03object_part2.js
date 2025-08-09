@@ -95,3 +95,9 @@ console.log(brother); // Output: "rahul"
     "section": "pj"
 }
 */
+// Creating object from array of key-value pairs
+const fromEntriesExample = Object.fromEntries([
+    ["brand", "Nike"],
+    ["type", "Shoes"],
+    ["price", 4500]
+]);cancelIdleCallback
