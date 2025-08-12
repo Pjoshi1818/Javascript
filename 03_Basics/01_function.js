@@ -47,4 +47,46 @@ function userloggin(username){
 }
 
 // console.log(userloggin("pankaj"))
-console.log(userloggin(5))   // use i to privment this type of situation
+// console.log(userloggin(5))   // use  to privment this type of situation
+
+
+// *** day 2 ** 
+
+
+function calculateCartPRICE(...num1){  // rust opreter to hendale multipale parameter
+    return num1
+}
+// console.log(calculateCartPRICE(100,200,300))  
+
+
+const user = {
+
+    name: "pankaj",
+    price: 199
+}
+
+function handleOBJ(anyobject){
+    console.log(`username is ${anyobject.name}  and price is ${anyobject.price}` )
+}
+
+// handleOBJ(user);
+
+handleOBJ({                            // direct pass object 
+    name : "pankaj ",
+    price :  5463.97
+});
+
+
+
+const myNewArray = [100,200,4545,656]
+
+
+function returnsecondvalue(anyArray){
+    return anyArray[1]
+
+}
+// console.log(returnsecondvalue(myNewArray))
+
+console.log(returnsecondvalue([
+    200,400,500
+]))
