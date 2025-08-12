@@ -52,41 +52,37 @@ function userloggin(username){
 
 // *** day 2 ** 
 
-
-function calculateCartPRICE(...num1){  // rust opreter to hendale multipale parameter
+function calculateCartPRICE(...num1){  // rest operator to handle multiple parameters as an array
     return num1
 }
 // console.log(calculateCartPRICE(100,200,300))  
 
 
 const user = {
-
-    name: "pankaj",
-    price: 199
+    name: "pankaj",   // username property
+    price: 199        // price property
 }
 
-function handleOBJ(anyobject){
+function handleOBJ(anyobject){  // function to handle and print object values
     console.log(`username is ${anyobject.name}  and price is ${anyobject.price}` )
 }
 
 // handleOBJ(user);
 
-handleOBJ({                            // direct pass object 
+handleOBJ({   // direct pass object without variable
     name : "pankaj ",
     price :  5463.97
 });
 
 
+const myNewArray = [100,200,4545,656]   // simple array of numbers
 
-const myNewArray = [100,200,4545,656]
-
-
-function returnsecondvalue(anyArray){
+function returnsecondvalue(anyArray){   // returns 2nd element of an array
     return anyArray[1]
-
 }
+
 // console.log(returnsecondvalue(myNewArray))
 
-console.log(returnsecondvalue([
+console.log(returnsecondvalue([  // direct array passed to function
     200,400,500
 ]))
