@@ -56,4 +56,11 @@ chai(); // still undefined
 
 const addtwo2 = (num1, num2) => ({ username: "raja" }); // () lets us directly return an object
 
-console.log(addtwo2(4,5)) // outputs object { username: "raja" }
+console.log(addtwo2(4,5)); // outputs object { username: "raja" }
+
+
+
+const divide = (a, b) =>  b !== 0 ? (a / b).toFixed(2) : "Cannot divide by zero"
+   ;
+
+console.log("Divide:", divide(5, 3));
