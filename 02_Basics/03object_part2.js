@@ -99,5 +99,5 @@ console.log(brother); // Output: "rahul"
 const fromEntriesExample = Object.fromEntries([
     ["brand", "Nike"],
     ["type", "Shoes"],
-    ["price", 4500]
+    ["price", 4500] 
 ]);cancelIdleCallback
