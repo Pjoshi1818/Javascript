@@ -19,3 +19,15 @@
     // execution starts here
     one();  
 })();
+
+//  other 
+
+const fruits = ["apple", "banana", "mango"];
+
+fruits.push("orange");      // add at the end
+fruits.unshift("grapes");   // add at the beginning
+fruits.pop();               // remove last element
+fruits.shift();             // remove first element
+
+console.log(fruits);        // ["banana", "mango"]
+console.log(fruits.includes("mango")); // true
