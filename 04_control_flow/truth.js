@@ -20,3 +20,23 @@ if (arr.length === 0) {
 if (Object.keys(emptyobj).length === 0) {
     console.log("object is empty ");
 }
+
+
+// nullish coalescing operator  (??)  null :  undefind
+
+let val ;
+// val = 5 ?? 10
+// val = null ??10
+// val = undefined ?? 45;
+val = undefined ?? 45 ?? 12;
+
+
+console.log(val)
+
+
+// Terniary opreator
+
+// conduction ? true:false;
+
+const price =100;
+price>=80 ? console.log("price is 80++ "): console.log("price is less thian 80");
