@@ -52,5 +52,7 @@ if(islogedin && debitcard){
 }
 if(loINfromgoogle || logedinemail){
     console.log("loged in ")
-}
+} 
+
+
 
