@@ -32,7 +32,7 @@ val = undefined ?? 45 ?? 12;
 
 
 console.log(val)
-
+ 
 
 // Terniary opreator
 
