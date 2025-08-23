@@ -1,9 +1,11 @@
-for (let i = 0; i < 10; i++) {
- console.log("outer loop ")
-    for (let j = 0; j < 10; j++) {
-     console.log("inner loop ")
-        
-    }
 
-    
+for (let index = 0; index <20; index++) {
+
+  if (index == 5) {
+    console.log(`number is detected ${index} `)
+    continue;
+  }
+  console.log(` value of index is ${index}`);
+
+
 }
