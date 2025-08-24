@@ -12,9 +12,15 @@ let i = 0;
 //     index++;
 // }
 
+// Do while loop 
+
 let num = 11;
 do {
     console.log(` num is ${num}`)
     num++;
     
 } while (num < 5);
+
+
+
+console.log(typeof NaN);
