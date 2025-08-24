@@ -32,4 +32,22 @@ map.set("SA", "South Africa");
 map.set("NZ", "New Zealand");
 map.set("IN", "India");  // duplicate key → overwrites
 
-console.log(map);  
+//console.log(map);  
+
+
+for (const [key,value] of map) {   
+    //console.log(key ,':- ',value);
+    
+}
+
+
+const myObj = {
+    name: "raj",
+    lastname: "kumar",
+    id: "og1"
+}
+
+// for (const [key,value] of myObj) {     //myObj is not iterable
+//     console.log(key,value);
+    
+// }
