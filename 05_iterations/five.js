@@ -43,5 +43,5 @@ const books = [
 // filter with condition
 // const user = books.filter((bkl) => bkl.genre === 'History');
 
-const user = books.filter((bkl) => bkl.publish > 2000);
-console.log(user);  // books published after 2000
+ const user = books.filter((bkl)=>{return bkl.publish > '1995' && bkl.genre === 'History'});
+  console.log(user);
