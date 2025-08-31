@@ -15,27 +15,41 @@
         <div class="day">thursday</div>
     </div>
 </body>
-<script>
-    const parent = document.querySelector('.parent')
-    // console.log(parent);
-    // console.log(`Second day of weak is ${parent.children[1].innerHTML}`);
-    // for (let i = 0; i < parent.children.length; i++) {
-    //     const element = parent.children[i].innerHTML;
-    //     console.log(element);
-    //         }
+<script>// Select the element with class "parent" from the DOM
+const parent = document.querySelector('.parent');
 
+// ---------------- Example of Accessing Children ----------------
+// console.log(parent);   // Logs the whole parent element
+// console.log(`Second day of week is ${parent.children[1].innerHTML}`);  
+// → Accesses the 2nd child of "parent" and prints its text
 
-    parent.children[3].style.color = "red";
-    // console.log(parent.firstElementChild);
-    // console.log(parent.lastElementChild);
+// Loop through all children of "parent" and print their inner text
+// for (let i = 0; i < parent.children.length; i++) {
+//     const element = parent.children[i].innerHTML;
+//     console.log(element);
+// }
 
-   const dayONE =  document.querySelector('.day');
-//    console.log(dayONE);
+// ---------------- Styling Example ----------------
+// Change the text color of the 4th child element (index starts from 0)
+parent.children[3].style.color = "red";
 
-//    console.log(dayONE.parentElement);
-//    console.log(dayONE.nextElementSibling);
+// ---------------- First & Last Child ----------------
+// console.log(parent.firstElementChild);   // Selects the very first child of "parent"
+// console.log(parent.lastElementChild);    // Selects the very last child of "parent"
 
+// ---------------- Working with a Single Child ----------------
+// Select the first element with class "day"
+const dayONE = document.querySelector('.day');
+
+// console.log(dayONE);                  // Logs that element
+// console.log(dayONE.parentElement);    // Logs its parent element
+// console.log(dayONE.nextElementSibling); // Logs the element that comes right after it
+
+// ---------------- Difference between children[] vs childNodes[] ----------------
+// children → only HTML elements (ignores text, spaces, comments)
+// childNodes → includes everything (elements, text nodes, line breaks, comments)
 console.log("NODES : " , parent.childNodes);
+
 
    
    
