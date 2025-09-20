@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #circle{
+            background-color: royalblue;
+            height:200px;
+            width: 200px;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+
+        }
+    </style>
 </head>
 <body style="background-color: #212121; color: aliceblue;">
-    <div>
+    <!-- <div>
         <ul>
             <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZAAI8Ox_9pdS0zatPg-_-ywGt-_bZ_5xNEQ&s" width="200px" id="virat"> </li>
             <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZAAI8Ox_9pdS0zatPg-_-ywGt-_bZ_5xNEQ&s" width="200px" id=""> </li>
@@ -15,15 +29,61 @@
             <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZAAI8Ox_9pdS0zatPg-_-ywGt-_bZ_5xNEQ&s" width="200px" id=""> </li>
             <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZAAI8Ox_9pdS0zatPg-_-ywGt-_bZ_5xNEQ&s" width="200px" id=""> </li>
         </ul>
+    </div> -->
+
+    <div id="circle" >
+        SHREE  RADHA 
     </div>
 </body>
 
 
 <script>
+    //  attachedEvent   ==> attachEvent was an old Internet Explorer–specific method (IE 5–8) used to attach event handlers to elements.
+//    ==> .on() is the preferred modern jQuery method
 
-document.getElementById('virat').addEventListener('click', function(){
-    console.log("hello :")
-    alert("retirement")
+// document.getElementById('virat').addEventListener('click', function(){
+//     // console.log("hello :")
+//     // alert("retirement")
+// })
+
+
+    // Browser event = the action (click, keydown, etc.)
+// Event object = details about that action, automatically passed to your handler
+
+
+// onclick make it circle ==>
+const cir = document.getElementById('circle');
+
+const cl =cir.addEventListener("mouseenter",(e)=>{
+
+
+        cir.style.borderRadius = "50%";
+
+})
+
+const cle =cir.addEventListener("mouseleave",(e)=>{
+ 
+
+        cir.style.borderRadius = "20px";
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.getElementById('virat').addEventListener('click', function(e){
+            console.log(e);
+
 })
 </script>
 </html>
